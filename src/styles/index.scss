@@ -1,24 +1,32 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-body{
-    background-image: url("/img/livingroom.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
+.livingroom{
+    position:relative;
+    z-index:1;
 }
 .farting-dog{
-    width:20%;
-    height:20%;
+    margin-left:50px;
+    position:absolute;
+    margin-top: 360px;
+   z-index:2;
+    
+ 
+   
+
    
 
 }
 .tree{
-    width:30%;
-    height:30%;
+    margin-left:580px;
+    margin-top: 70px;
+    position:absolute;
+    z-index:2;
+
+    
+    
+    
+
 }
-
-
 
 
 /* 
