@@ -1,24 +1,17 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import dog from "../../img/dog.png";
+import livingroom from "../../img/livingroom.jpg";
+import tree from "../../img/tree.png";
 
 //create your first component
 export function Home() {
 	return (
 		<div className="text-center mt-5">
-			<h1>Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<img className="farting-dog" src={dog}  />
+			<img className="livingroom" src={livingroom} />
+			<img className="tree" src={tree} />
 		</div>
 	);
 }
