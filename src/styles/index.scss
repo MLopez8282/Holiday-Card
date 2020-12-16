@@ -8,7 +8,7 @@
     margin-left:50px;
     position:absolute;
     margin-top: 360px;
-   z-index:2;
+   z-index:3;
     
  
    
@@ -21,13 +21,15 @@
     margin-top: 70px;
     position:absolute;
     z-index:2;
-
-    
-    
-    
-
 }
-
+.lights{
+    position:absolute;
+    z-index:2.5;
+    margin-left:40px;
+    margin-top:110px;
+    letter-spacing: 8px;
+    font-size:40px;
+}
 
 /* 
 
