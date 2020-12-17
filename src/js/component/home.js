@@ -28,17 +28,17 @@ export function Home() {
 				src={dog}
 				style={{ height: 360, width: 380, left: movingDog }}
 			/>
-			<div className="treelights tree">
+			<div className="treelights tree  ">
 				{" "}
-				<div className="lights">
+				<div className="lights" style={{ letterSpacing: 45 }}>
 					<p>
-						<TreeLights />
-						<TreeLights />
 						<TreeLights />
 					</p>
 					<p>
 						<TreeLights />
 						<TreeLights />
+					</p>
+					<p>
 						<TreeLights />
 						<TreeLights />
 						<TreeLights />
@@ -59,29 +59,6 @@ export function Home() {
 					</p>
 					<p>
 						{" "}
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-					</p>
-					<p>
-						{" "}
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-					</p>
-					<p>
-						{" "}
-						<TreeLights />
-						<TreeLights />
 						<TreeLights />
 						<TreeLights />
 						<TreeLights />
