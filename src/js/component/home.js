@@ -10,6 +10,7 @@ import fart from "../../img/fart.png";
 //create your first component
 export function Home() {
 	const [movingDog, setMovingDog] = useState(0);
+	const [movingFart, setMovingFart] = useState(100);
 
 	useEffect(
 		() => {
@@ -17,6 +18,9 @@ export function Home() {
 				setTimeout(() => {
 					setMovingDog(movingDog + 5);
 				}, 20);
+				setTimeout(() => {
+					setMovingFart(movingFart === 100 ? 120 : 100);
+				}, 900);
 			}
 		},
 		[movingDog]
@@ -33,7 +37,7 @@ export function Home() {
 				className="fart"
 				src={fart}
 				style={{
-					height: 100,
+					height: movingFart,
 					left: movingDog
 				}}
 			/>
