@@ -20,8 +20,8 @@ export function Home() {
 					setMovingDog(movingDog + 5);
 				}, 20);
 				setTimeout(() => {
-					setMovingFart(movingFart === 100 ? 120 : 100);
-				}, 900);
+					setMovingFart(movingFart === 100 ? 130 : 100);
+				}, 6500);
 			}
 		},
 		[movingDog]
