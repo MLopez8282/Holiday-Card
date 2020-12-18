@@ -5,6 +5,7 @@ import { TreeLights } from "./TreeLights";
 import dog from "../../img/dog.png";
 import livingroom from "../../img/livingroom.jpg";
 import tree from "../../img/tree.png";
+import fart from "../../img/fart.png";
 
 //create your first component
 export function Home() {
@@ -28,44 +29,52 @@ export function Home() {
 				src={dog}
 				style={{ height: 360, width: 380, left: movingDog }}
 			/>
+			<img
+				className="fart"
+				src={fart}
+				style={{
+					height: 100,
+					left: movingDog
+				}}
+			/>
 			<div className="treelights tree  ">
 				{" "}
 				<div className="lights" style={{ letterSpacing: 45 }}>
 					<p>
-						<TreeLights />
+						<TreeLights movingDog={movingDog} />
 					</p>
 					<p>
-						<TreeLights />
-						<TreeLights />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
 					</p>
 					<p>
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
 					</p>
 					<p>
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
 					</p>
 					<p>
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
 					</p>
 					<p>
 						{" "}
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
-						<TreeLights />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
+						<TreeLights movingDog={movingDog} />
 					</p>
 				</div>
 				<img src={tree} style={{ width: 500, height: 560 }} />
