@@ -21,7 +21,7 @@ export function Home() {
 				}, 20);
 				setTimeout(() => {
 					setMovingFart(movingFart === 100 ? 130 : 100);
-				}, 6500);
+				}, 1300);
 			}
 		},
 		[movingDog]
