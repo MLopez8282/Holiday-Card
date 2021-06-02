@@ -2,6 +2,8 @@
 
 .livingroom{
     position:relative;
+    margin-top:200px;
+
     z-index:1;
 }
 .words{
@@ -39,14 +41,14 @@ font-family: 'Satisfy', cursive;
 .farting-dog{
     margin-left:50px;
     position:absolute;
-    margin-top: 360px;
+    margin-top: 560px;
    z-index:3;
     
 }
 .fart{
       margin-left:40px;
     position:absolute;
-    margin-top: 483px;
+    margin-top: 680px;
    z-index:3;
    opacity: 0.8;
    
@@ -54,8 +56,8 @@ font-family: 'Satisfy', cursive;
 
 }
 .tree{
-    margin-left: 610px;
-    margin-top: 70px;
+    margin-left: 810px;
+    margin-top: 300px;
     position:absolute;
     z-index:2;
 }

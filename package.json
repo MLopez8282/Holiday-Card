@@ -2,7 +2,7 @@
 	"name": "react-hello",
 	"version": "1.0.1",
 	"engines": {
-		"node": "10.x"
+        "node": "14.x"
 	},
 	"description": "",
 	"main": "index.js",
@@ -67,6 +67,7 @@
 		"query-string": "^5.1.1",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
-		"react-polyfills": "0.0.1"
+		"react-polyfills": "0.0.1",
+		"vercel": "^23.0.0"
 	}
 }
