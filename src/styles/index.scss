@@ -1,8 +1,14 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+body{
+    height:100vh;
+}
+
 .livingroom{
     position:relative;
-    margin-top:200px;
+    height:100%;
+    overflow:hidden;
+    width:100vw;
 
     z-index:1;
 }
